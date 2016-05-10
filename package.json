@@ -1,0 +1,24 @@
+{
+  "name": "splurge",
+  "version": "0.0.1",
+  "description": "Task execution the way you want it.",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib",
+    "test": ""
+  },
+  "keywords": [
+    "task",
+    "execution",
+    "engine"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "author": "Steve Gray",
+  "license": "MIT",
+  "dependencies": {
+    "toposort": "^0.2.12",
+    "wildcard": "^1.1.2"
+  }
+}
